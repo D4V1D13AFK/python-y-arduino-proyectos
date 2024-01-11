@@ -14,8 +14,8 @@ arduino = serial.Serial('COM4', 9600)
 time.sleep(2)
 
 # Cargar imágenes y redimensionarlas
-imagen_encendido = Image.open("C:\\Users\\EQUIPODAVID\\Desktop\\arduino x python\\encender_y_apagar_led_con_interfaz\\prendido.png")
-imagen_apagado = Image.open("C:\\Users\\EQUIPODAVID\\Desktop\\arduino x python\\encender_y_apagar_led_con_interfaz\\apagado.png")
+imagen_encendido = Image.open("inserta la ubicación de la imagen")
+imagen_apagado = Image.open("inserta la ubicación de la imagen")
 
 # Redimensionar las imágenes
 imagen_encendido = imagen_encendido.resize((100, 100), Image.ANTIALIAS)
